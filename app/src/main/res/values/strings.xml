@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IHASCO</string>
+
+    <string name="bhsEng">English</string>
+    <string name="bhsInd">Indonesia</string>
+    <string name="start">Get Started</string>
 </resources>
