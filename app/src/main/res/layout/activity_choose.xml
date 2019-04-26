@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".ChooseActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#6699ff"
+        android:lineSpacingExtra="8sp"
+        android:gravity="center_horizontal"
+        tools:text="Next &gt;"
+        android:layout_gravity="end"
+        android:layout_margin="15dp" />
+    <TextView
+        android:id="@+id/tv_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#003399"
+        android:lineSpacingExtra="10sp"
+        android:gravity="center_horizontal"
+        tools:text="Choose one.." />
+    <LinearLayout
+        android:id="@+id/llVr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:id="@+id/Vr_pict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_vr"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:src="@drawable/vrbox"/>
+            <ImageView
+                android:id="@+id/img_phone1"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:src="@drawable/phone_big"/>
+        </LinearLayout>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+            android:textStyle="bold"
+        android:textColor="#6699ff"
+            android:layout_gravity="center"
+        tools:text="VR Based" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llsmart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:id="@+id/sglass_pict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/glass"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:src="@drawable/glass"/>
+            <ImageView
+                android:id="@+id/img_phone2"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:src="@drawable/phone_big"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#6699ff"
+            android:layout_gravity="center"
+            tools:text="Smart Glass Based" />
+    </LinearLayout>
+</LinearLayout>
