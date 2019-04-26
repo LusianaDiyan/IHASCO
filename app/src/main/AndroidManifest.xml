@@ -11,8 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ChooseActivity"></activity>
         <activity android:name=".StartActivity" />
-        <activity android:name=".Splashscreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
